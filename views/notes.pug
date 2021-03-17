@@ -5,4 +5,6 @@ block content
      h1 All notes
 
      each value in noteList
-      a.note(href='/notes/detail')= value
+       div.note-wrapper
+         a.note(href='/notes/detail')= value
+         a.delete(href='#') Delete
