@@ -98,3 +98,11 @@ a{
 .nav > a:hover{
 	color: tomato;
 }
+
+/*notes page*/
+.note {
+	display: block;
+	padding:10px;
+	font-size: 1.5rem;
+	border-bottom: 1px solid #ccc;
+}
